@@ -1,0 +1,71 @@
+Density (g/ml),TDS (ppm),pH,Turbidity (NTU),Temperature (°C),Label,Category
+1.030,300,6.7,820,25,Pure Milk,Pure
+1.031,310,6.6,840,22,Pure Milk,Pure
+1.029,290,6.65,800,27,Pure Milk,Pure
+1.032,330,6.7,860,20,Pure Milk,Pure
+1.030,305,6.68,830,24,Pure Milk,Pure
+1.031,318,6.6,815,26,Pure Milk,Pure
+1.028,280,6.55,780,28,Pure Milk,Pure
+1.032,340,6.72,870,21,Pure Milk,Pure
+1.030,295,6.63,810,23,Pure Milk,Pure
+1.029,285,6.58,790,30,Pure Milk,Pure
+1.031,322,6.71,845,22,Pure Milk,Pure
+1.030,308,6.67,825,25,Pure Milk,Pure
+1.028,275,6.60,770,29,Pure Milk,Pure
+1.032,345,6.70,855,20,Pure Milk,Pure
+1.029,292,6.64,795,26,Pure Milk,Pure
+1.031,315,6.66,835,23,Pure Milk,Pure
+1.030,302,6.69,818,24,Pure Milk,Pure
+1.028,270,6.57,775,31,Pure Milk,Pure
+1.033,355,6.74,875,19,Pure Milk,Pure
+1.030,298,6.62,808,25,Pure Milk,Pure
+1.027,270,6.73,738,25,Diluted Milk,10% Dilution
+1.027,265,6.74,730,23,Diluted Milk,10% Dilution
+1.026,258,6.75,720,26,Diluted Milk,10% Dilution
+1.024,240,6.78,656,24,Diluted Milk,20% Dilution
+1.024,236,6.79,648,25,Diluted Milk,20% Dilution
+1.023,228,6.80,640,27,Diluted Milk,20% Dilution
+1.021,210,6.84,574,25,Diluted Milk,30% Dilution
+1.021,205,6.85,560,22,Diluted Milk,30% Dilution
+1.020,198,6.87,550,28,Diluted Milk,30% Dilution
+1.018,180,6.90,492,25,Diluted Milk,40% Dilution
+1.018,175,6.91,480,23,Diluted Milk,40% Dilution
+1.017,168,6.92,466,26,Diluted Milk,40% Dilution
+1.015,150,6.95,410,25,Diluted Milk,50% Dilution
+1.015,145,6.96,400,24,Diluted Milk,50% Dilution
+1.014,138,6.97,385,27,Diluted Milk,50% Dilution
+1.022,218,6.82,590,23,Diluted Milk,25% Dilution
+1.019,188,6.89,510,26,Diluted Milk,35% Dilution
+1.016,155,6.94,420,25,Diluted Milk,45% Dilution
+1.025,255,6.76,700,24,Diluted Milk,15% Dilution
+1.013,128,6.98,360,27,Diluted Milk,55% Dilution
+1.033,580,6.55,830,25,Salt Contamination,High TDS
+1.034,620,6.50,820,24,Salt Contamination,High TDS
+1.035,680,6.48,840,26,Salt Contamination,High TDS
+1.033,540,6.56,815,23,Salt Contamination,High TDS
+1.034,600,6.52,828,25,Salt Contamination,High TDS
+1.035,660,6.49,845,22,Salt Contamination,High TDS
+1.036,720,6.45,860,24,Salt Contamination,High TDS
+1.033,558,6.54,822,27,Salt Contamination,High TDS
+1.034,640,6.51,835,25,Salt Contamination,High TDS
+1.035,700,6.47,850,23,Salt Contamination,High TDS
+1.033,520,6.58,810,26,Salt Contamination,High TDS
+1.036,750,6.44,865,24,Salt Contamination,High TDS
+1.034,610,6.53,832,25,Salt Contamination,High TDS
+1.035,670,6.46,848,22,Salt Contamination,High TDS
+1.033,560,6.55,818,26,Salt Contamination,High TDS
+1.027,470,8.8,580,25,Detergent Contamination,High pH
+1.026,510,9.2,540,24,Detergent Contamination,High pH
+1.028,440,8.5,610,26,Detergent Contamination,High pH
+1.026,490,9.0,560,25,Detergent Contamination,High pH
+1.027,525,9.5,520,23,Detergent Contamination,High pH
+1.025,480,8.7,590,27,Detergent Contamination,High pH
+1.026,550,9.8,490,25,Detergent Contamination,High pH
+1.028,420,8.3,630,24,Detergent Contamination,High pH
+1.027,500,9.1,550,26,Detergent Contamination,High pH
+1.025,465,8.6,600,25,Detergent Contamination,High pH
+1.026,535,9.4,510,22,Detergent Contamination,High pH
+1.027,455,8.4,615,28,Detergent Contamination,High pH
+1.025,515,9.3,530,25,Detergent Contamination,High pH
+1.026,480,8.9,575,24,Detergent Contamination,High pH
+1.028,410,8.2,640,26,Detergent Contamination,High pH

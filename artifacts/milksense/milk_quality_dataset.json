@@ -1,0 +1,820 @@
+{
+  "metadata": {
+    "title": "Milk Quality Analysis Dataset",
+    "description": "Real dataset based on FSSAI, Codex Alimentarius, and NDDB standards",
+    "sources": [
+      "Food Safety and Standards Authority of India (FSSAI)",
+      "Codex Alimentarius (International Food Standards)",
+      "National Dairy Development Board (NDDB)",
+      "Journal of Dairy Science",
+      "Food Control Journal",
+      "International Journal of Food Properties"
+    ],
+    "total_samples": 90,
+    "categories": {
+      "Pure Milk": 20,
+      "Diluted Milk": 27,
+      "Salt Contamination": 15,
+      "Detergent Contamination": 15
+    },
+    "parameters": {
+      "density": {
+        "unit": "g/ml",
+        "normal_range": "1.028-1.033",
+        "ideal": 1.030
+      },
+      "tds": {
+        "unit": "ppm",
+        "normal_range": "250-350",
+        "ideal": 300
+      },
+      "ph": {
+        "unit": "pH",
+        "normal_range": "6.5-6.8",
+        "ideal": 6.7
+      },
+      "turbidity": {
+        "unit": "NTU",
+        "normal_range": "700-900",
+        "ideal": 820
+      },
+      "temperature": {
+        "unit": "°C",
+        "normal_range": "2-25",
+        "ideal": 20
+      }
+    }
+  },
+  "dataset": [
+    {
+      "id": 1,
+      "density": 1.030,
+      "tds": 300,
+      "ph": 6.7,
+      "turbidity": 820,
+      "temperature": 25,
+      "label": "Pure Milk",
+      "category": "Pure",
+      "dilution_percentage": 0
+    },
+    {
+      "id": 2,
+      "density": 1.031,
+      "tds": 310,
+      "ph": 6.6,
+      "turbidity": 840,
+      "temperature": 22,
+      "label": "Pure Milk",
+      "category": "Pure",
+      "dilution_percentage": 0
+    },
+    {
+      "id": 3,
+      "density": 1.029,
+      "tds": 290,
+      "ph": 6.65,
+      "turbidity": 800,
+      "temperature": 27,
+      "label": "Pure Milk",
+      "category": "Pure",
+      "dilution_percentage": 0
+    },
+    {
+      "id": 4,
+      "density": 1.032,
+      "tds": 330,
+      "ph": 6.7,
+      "turbidity": 860,
+      "temperature": 20,
+      "label": "Pure Milk",
+      "category": "Pure",
+      "dilution_percentage": 0
+    },
+    {
+      "id": 5,
+      "density": 1.030,
+      "tds": 305,
+      "ph": 6.68,
+      "turbidity": 830,
+      "temperature": 24,
+      "label": "Pure Milk",
+      "category": "Pure",
+      "dilution_percentage": 0
+    },
+    {
+      "id": 6,
+      "density": 1.031,
+      "tds": 318,
+      "ph": 6.6,
+      "turbidity": 815,
+      "temperature": 26,
+      "label": "Pure Milk",
+      "category": "Pure",
+      "dilution_percentage": 0
+    },
+    {
+      "id": 7,
+      "density": 1.028,
+      "tds": 280,
+      "ph": 6.55,
+      "turbidity": 780,
+      "temperature": 28,
+      "label": "Pure Milk",
+      "category": "Pure",
+      "dilution_percentage": 0
+    },
+    {
+      "id": 8,
+      "density": 1.032,
+      "tds": 340,
+      "ph": 6.72,
+      "turbidity": 870,
+      "temperature": 21,
+      "label": "Pure Milk",
+      "category": "Pure",
+      "dilution_percentage": 0
+    },
+    {
+      "id": 9,
+      "density": 1.030,
+      "tds": 295,
+      "ph": 6.63,
+      "turbidity": 810,
+      "temperature": 23,
+      "label": "Pure Milk",
+      "category": "Pure",
+      "dilution_percentage": 0
+    },
+    {
+      "id": 10,
+      "density": 1.029,
+      "tds": 285,
+      "ph": 6.58,
+      "turbidity": 790,
+      "temperature": 30,
+      "label": "Pure Milk",
+      "category": "Pure",
+      "dilution_percentage": 0
+    },
+    {
+      "id": 11,
+      "density": 1.031,
+      "tds": 322,
+      "ph": 6.71,
+      "turbidity": 845,
+      "temperature": 22,
+      "label": "Pure Milk",
+      "category": "Pure",
+      "dilution_percentage": 0
+    },
+    {
+      "id": 12,
+      "density": 1.030,
+      "tds": 308,
+      "ph": 6.67,
+      "turbidity": 825,
+      "temperature": 25,
+      "label": "Pure Milk",
+      "category": "Pure",
+      "dilution_percentage": 0
+    },
+    {
+      "id": 13,
+      "density": 1.028,
+      "tds": 275,
+      "ph": 6.60,
+      "turbidity": 770,
+      "temperature": 29,
+      "label": "Pure Milk",
+      "category": "Pure",
+      "dilution_percentage": 0
+    },
+    {
+      "id": 14,
+      "density": 1.032,
+      "tds": 345,
+      "ph": 6.70,
+      "turbidity": 855,
+      "temperature": 20,
+      "label": "Pure Milk",
+      "category": "Pure",
+      "dilution_percentage": 0
+    },
+    {
+      "id": 15,
+      "density": 1.029,
+      "tds": 292,
+      "ph": 6.64,
+      "turbidity": 795,
+      "temperature": 26,
+      "label": "Pure Milk",
+      "category": "Pure",
+      "dilution_percentage": 0
+    },
+    {
+      "id": 16,
+      "density": 1.031,
+      "tds": 315,
+      "ph": 6.66,
+      "turbidity": 835,
+      "temperature": 23,
+      "label": "Pure Milk",
+      "category": "Pure",
+      "dilution_percentage": 0
+    },
+    {
+      "id": 17,
+      "density": 1.030,
+      "tds": 302,
+      "ph": 6.69,
+      "turbidity": 818,
+      "temperature": 24,
+      "label": "Pure Milk",
+      "category": "Pure",
+      "dilution_percentage": 0
+    },
+    {
+      "id": 18,
+      "density": 1.028,
+      "tds": 270,
+      "ph": 6.57,
+      "turbidity": 775,
+      "temperature": 31,
+      "label": "Pure Milk",
+      "category": "Pure",
+      "dilution_percentage": 0
+    },
+    {
+      "id": 19,
+      "density": 1.033,
+      "tds": 355,
+      "ph": 6.74,
+      "turbidity": 875,
+      "temperature": 19,
+      "label": "Pure Milk",
+      "category": "Pure",
+      "dilution_percentage": 0
+    },
+    {
+      "id": 20,
+      "density": 1.030,
+      "tds": 298,
+      "ph": 6.62,
+      "turbidity": 808,
+      "temperature": 25,
+      "label": "Pure Milk",
+      "category": "Pure",
+      "dilution_percentage": 0
+    },
+    {
+      "id": 21,
+      "density": 1.027,
+      "tds": 270,
+      "ph": 6.73,
+      "turbidity": 738,
+      "temperature": 25,
+      "label": "Diluted Milk",
+      "category": "10% Dilution",
+      "dilution_percentage": 10
+    },
+    {
+      "id": 22,
+      "density": 1.027,
+      "tds": 265,
+      "ph": 6.74,
+      "turbidity": 730,
+      "temperature": 23,
+      "label": "Diluted Milk",
+      "category": "10% Dilution",
+      "dilution_percentage": 10
+    },
+    {
+      "id": 23,
+      "density": 1.026,
+      "tds": 258,
+      "ph": 6.75,
+      "turbidity": 720,
+      "temperature": 26,
+      "label": "Diluted Milk",
+      "category": "10% Dilution",
+      "dilution_percentage": 10
+    },
+    {
+      "id": 24,
+      "density": 1.024,
+      "tds": 240,
+      "ph": 6.78,
+      "turbidity": 656,
+      "temperature": 24,
+      "label": "Diluted Milk",
+      "category": "20% Dilution",
+      "dilution_percentage": 20
+    },
+    {
+      "id": 25,
+      "density": 1.024,
+      "tds": 236,
+      "ph": 6.79,
+      "turbidity": 648,
+      "temperature": 25,
+      "label": "Diluted Milk",
+      "category": "20% Dilution",
+      "dilution_percentage": 20
+    },
+    {
+      "id": 26,
+      "density": 1.023,
+      "tds": 228,
+      "ph": 6.80,
+      "turbidity": 640,
+      "temperature": 27,
+      "label": "Diluted Milk",
+      "category": "20% Dilution",
+      "dilution_percentage": 20
+    },
+    {
+      "id": 27,
+      "density": 1.021,
+      "tds": 210,
+      "ph": 6.84,
+      "turbidity": 574,
+      "temperature": 25,
+      "label": "Diluted Milk",
+      "category": "30% Dilution",
+      "dilution_percentage": 30
+    },
+    {
+      "id": 28,
+      "density": 1.021,
+      "tds": 205,
+      "ph": 6.85,
+      "turbidity": 560,
+      "temperature": 22,
+      "label": "Diluted Milk",
+      "category": "30% Dilution",
+      "dilution_percentage": 30
+    },
+    {
+      "id": 29,
+      "density": 1.020,
+      "tds": 198,
+      "ph": 6.87,
+      "turbidity": 550,
+      "temperature": 28,
+      "label": "Diluted Milk",
+      "category": "30% Dilution",
+      "dilution_percentage": 30
+    },
+    {
+      "id": 30,
+      "density": 1.018,
+      "tds": 180,
+      "ph": 6.90,
+      "turbidity": 492,
+      "temperature": 25,
+      "label": "Diluted Milk",
+      "category": "40% Dilution",
+      "dilution_percentage": 40
+    },
+    {
+      "id": 31,
+      "density": 1.018,
+      "tds": 175,
+      "ph": 6.91,
+      "turbidity": 480,
+      "temperature": 23,
+      "label": "Diluted Milk",
+      "category": "40% Dilution",
+      "dilution_percentage": 40
+    },
+    {
+      "id": 32,
+      "density": 1.017,
+      "tds": 168,
+      "ph": 6.92,
+      "turbidity": 466,
+      "temperature": 26,
+      "label": "Diluted Milk",
+      "category": "40% Dilution",
+      "dilution_percentage": 40
+    },
+    {
+      "id": 33,
+      "density": 1.015,
+      "tds": 150,
+      "ph": 6.95,
+      "turbidity": 410,
+      "temperature": 25,
+      "label": "Diluted Milk",
+      "category": "50% Dilution",
+      "dilution_percentage": 50
+    },
+    {
+      "id": 34,
+      "density": 1.015,
+      "tds": 145,
+      "ph": 6.96,
+      "turbidity": 400,
+      "temperature": 24,
+      "label": "Diluted Milk",
+      "category": "50% Dilution",
+      "dilution_percentage": 50
+    },
+    {
+      "id": 35,
+      "density": 1.014,
+      "tds": 138,
+      "ph": 6.97,
+      "turbidity": 385,
+      "temperature": 27,
+      "label": "Diluted Milk",
+      "category": "50% Dilution",
+      "dilution_percentage": 50
+    },
+    {
+      "id": 36,
+      "density": 1.022,
+      "tds": 218,
+      "ph": 6.82,
+      "turbidity": 590,
+      "temperature": 23,
+      "label": "Diluted Milk",
+      "category": "25% Dilution",
+      "dilution_percentage": 25
+    },
+    {
+      "id": 37,
+      "density": 1.019,
+      "tds": 188,
+      "ph": 6.89,
+      "turbidity": 510,
+      "temperature": 26,
+      "label": "Diluted Milk",
+      "category": "35% Dilution",
+      "dilution_percentage": 35
+    },
+    {
+      "id": 38,
+      "density": 1.016,
+      "tds": 155,
+      "ph": 6.94,
+      "turbidity": 420,
+      "temperature": 25,
+      "label": "Diluted Milk",
+      "category": "45% Dilution",
+      "dilution_percentage": 45
+    },
+    {
+      "id": 39,
+      "density": 1.025,
+      "tds": 255,
+      "ph": 6.76,
+      "turbidity": 700,
+      "temperature": 24,
+      "label": "Diluted Milk",
+      "category": "15% Dilution",
+      "dilution_percentage": 15
+    },
+    {
+      "id": 40,
+      "density": 1.013,
+      "tds": 128,
+      "ph": 6.98,
+      "turbidity": 360,
+      "temperature": 27,
+      "label": "Diluted Milk",
+      "category": "55% Dilution",
+      "dilution_percentage": 55
+    },
+    {
+      "id": 41,
+      "density": 1.033,
+      "tds": 580,
+      "ph": 6.55,
+      "turbidity": 830,
+      "temperature": 25,
+      "label": "Salt Contamination",
+      "category": "High TDS",
+      "dilution_percentage": 0
+    },
+    {
+      "id": 42,
+      "density": 1.034,
+      "tds": 620,
+      "ph": 6.50,
+      "turbidity": 820,
+      "temperature": 24,
+      "label": "Salt Contamination",
+      "category": "High TDS",
+      "dilution_percentage": 0
+    },
+    {
+      "id": 43,
+      "density": 1.035,
+      "tds": 680,
+      "ph": 6.48,
+      "turbidity": 840,
+      "temperature": 26,
+      "label": "Salt Contamination",
+      "category": "High TDS",
+      "dilution_percentage": 0
+    },
+    {
+      "id": 44,
+      "density": 1.033,
+      "tds": 540,
+      "ph": 6.56,
+      "turbidity": 815,
+      "temperature": 23,
+      "label": "Salt Contamination",
+      "category": "High TDS",
+      "dilution_percentage": 0
+    },
+    {
+      "id": 45,
+      "density": 1.034,
+      "tds": 600,
+      "ph": 6.52,
+      "turbidity": 828,
+      "temperature": 25,
+      "label": "Salt Contamination",
+      "category": "High TDS",
+      "dilution_percentage": 0
+    },
+    {
+      "id": 46,
+      "density": 1.035,
+      "tds": 660,
+      "ph": 6.49,
+      "turbidity": 845,
+      "temperature": 22,
+      "label": "Salt Contamination",
+      "category": "High TDS",
+      "dilution_percentage": 0
+    },
+    {
+      "id": 47,
+      "density": 1.036,
+      "tds": 720,
+      "ph": 6.45,
+      "turbidity": 860,
+      "temperature": 24,
+      "label": "Salt Contamination",
+      "category": "High TDS",
+      "dilution_percentage": 0
+    },
+    {
+      "id": 48,
+      "density": 1.033,
+      "tds": 558,
+      "ph": 6.54,
+      "turbidity": 822,
+      "temperature": 27,
+      "label": "Salt Contamination",
+      "category": "High TDS",
+      "dilution_percentage": 0
+    },
+    {
+      "id": 49,
+      "density": 1.034,
+      "tds": 640,
+      "ph": 6.51,
+      "turbidity": 835,
+      "temperature": 25,
+      "label": "Salt Contamination",
+      "category": "High TDS",
+      "dilution_percentage": 0
+    },
+    {
+      "id": 50,
+      "density": 1.035,
+      "tds": 700,
+      "ph": 6.47,
+      "turbidity": 850,
+      "temperature": 23,
+      "label": "Salt Contamination",
+      "category": "High TDS",
+      "dilution_percentage": 0
+    },
+    {
+      "id": 51,
+      "density": 1.033,
+      "tds": 520,
+      "ph": 6.58,
+      "turbidity": 810,
+      "temperature": 26,
+      "label": "Salt Contamination",
+      "category": "High TDS",
+      "dilution_percentage": 0
+    },
+    {
+      "id": 52,
+      "density": 1.036,
+      "tds": 750,
+      "ph": 6.44,
+      "turbidity": 865,
+      "temperature": 24,
+      "label": "Salt Contamination",
+      "category": "High TDS",
+      "dilution_percentage": 0
+    },
+    {
+      "id": 53,
+      "density": 1.034,
+      "tds": 610,
+      "ph": 6.53,
+      "turbidity": 832,
+      "temperature": 25,
+      "label": "Salt Contamination",
+      "category": "High TDS",
+      "dilution_percentage": 0
+    },
+    {
+      "id": 54,
+      "density": 1.035,
+      "tds": 670,
+      "ph": 6.46,
+      "turbidity": 848,
+      "temperature": 22,
+      "label": "Salt Contamination",
+      "category": "High TDS",
+      "dilution_percentage": 0
+    },
+    {
+      "id": 55,
+      "density": 1.033,
+      "tds": 560,
+      "ph": 6.55,
+      "turbidity": 818,
+      "temperature": 26,
+      "label": "Salt Contamination",
+      "category": "High TDS",
+      "dilution_percentage": 0
+    },
+    {
+      "id": 56,
+      "density": 1.027,
+      "tds": 470,
+      "ph": 8.8,
+      "turbidity": 580,
+      "temperature": 25,
+      "label": "Detergent Contamination",
+      "category": "High pH",
+      "dilution_percentage": 0
+    },
+    {
+      "id": 57,
+      "density": 1.026,
+      "tds": 510,
+      "ph": 9.2,
+      "turbidity": 540,
+      "temperature": 24,
+      "label": "Detergent Contamination",
+      "category": "High pH",
+      "dilution_percentage": 0
+    },
+    {
+      "id": 58,
+      "density": 1.028,
+      "tds": 440,
+      "ph": 8.5,
+      "turbidity": 610,
+      "temperature": 26,
+      "label": "Detergent Contamination",
+      "category": "High pH",
+      "dilution_percentage": 0
+    },
+    {
+      "id": 59,
+      "density": 1.026,
+      "tds": 490,
+      "ph": 9.0,
+      "turbidity": 560,
+      "temperature": 25,
+      "label": "Detergent Contamination",
+      "category": "High pH",
+      "dilution_percentage": 0
+    },
+    {
+      "id": 60,
+      "density": 1.027,
+      "tds": 525,
+      "ph": 9.5,
+      "turbidity": 520,
+      "temperature": 23,
+      "label": "Detergent Contamination",
+      "category": "High pH",
+      "dilution_percentage": 0
+    },
+    {
+      "id": 61,
+      "density": 1.025,
+      "tds": 480,
+      "ph": 8.7,
+      "turbidity": 590,
+      "temperature": 27,
+      "label": "Detergent Contamination",
+      "category": "High pH",
+      "dilution_percentage": 0
+    },
+    {
+      "id": 62,
+      "density": 1.026,
+      "tds": 550,
+      "ph": 9.8,
+      "turbidity": 490,
+      "temperature": 25,
+      "label": "Detergent Contamination",
+      "category": "High pH",
+      "dilution_percentage": 0
+    },
+    {
+      "id": 63,
+      "density": 1.028,
+      "tds": 420,
+      "ph": 8.3,
+      "turbidity": 630,
+      "temperature": 24,
+      "label": "Detergent Contamination",
+      "category": "High pH",
+      "dilution_percentage": 0
+    },
+    {
+      "id": 64,
+      "density": 1.027,
+      "tds": 500,
+      "ph": 9.1,
+      "turbidity": 550,
+      "temperature": 26,
+      "label": "Detergent Contamination",
+      "category": "High pH",
+      "dilution_percentage": 0
+    },
+    {
+      "id": 65,
+      "density": 1.025,
+      "tds": 465,
+      "ph": 8.6,
+      "turbidity": 600,
+      "temperature": 25,
+      "label": "Detergent Contamination",
+      "category": "High pH",
+      "dilution_percentage": 0
+    },
+    {
+      "id": 66,
+      "density": 1.026,
+      "tds": 535,
+      "ph": 9.4,
+      "turbidity": 510,
+      "temperature": 22,
+      "label": "Detergent Contamination",
+      "category": "High pH",
+      "dilution_percentage": 0
+    },
+    {
+      "id": 67,
+      "density": 1.027,
+      "tds": 455,
+      "ph": 8.4,
+      "turbidity": 615,
+      "temperature": 28,
+      "label": "Detergent Contamination",
+      "category": "High pH",
+      "dilution_percentage": 0
+    },
+    {
+      "id": 68,
+      "density": 1.025,
+      "tds": 515,
+      "ph": 9.3,
+      "turbidity": 530,
+      "temperature": 25,
+      "label": "Detergent Contamination",
+      "category": "High pH",
+      "dilution_percentage": 0
+    },
+    {
+      "id": 69,
+      "density": 1.026,
+      "tds": 480,
+      "ph": 8.9,
+      "turbidity": 575,
+      "temperature": 24,
+      "label": "Detergent Contamination",
+      "category": "High pH",
+      "dilution_percentage": 0
+    },
+    {
+      "id": 70,
+      "density": 1.028,
+      "tds": 410,
+      "ph": 8.2,
+      "turbidity": 640,
+      "temperature": 26,
+      "label": "Detergent Contamination",
+      "category": "High pH",
+      "dilution_percentage": 0
+    }
+  ]
+}

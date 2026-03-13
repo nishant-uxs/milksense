@@ -1,0 +1,176 @@
+Create a Flutter mobile application called "MilkSense".
+
+The app is a smart milk quality analyzer designed to work with IoT sensors (ESP32). 
+For now the app should work using manual input values but the architecture must allow future sensor integration.
+
+APP REQUIREMENTS
+
+1. MOBILE APP UI
+Build a clean Flutter mobile interface with the following input fields:
+
+Density (g/ml)
+TDS (ppm)
+pH
+Turbidity
+Temperature (°C)
+
+Each sensor should have a toggle switch so the user can enable or disable it depending on available hardware.
+
+Example sensor configuration:
+
+density = enabled
+tds = enabled
+ph = optional
+turbidity = optional
+temperature = enabled
+
+2. ANALYZE BUTTON
+
+Add a button:
+
+"Analyze Milk Sample"
+
+When pressed the app will analyze the input values.
+
+3. DATASET GENERATION
+
+Create an internal dataset for milk samples.
+
+Dataset must include examples of:
+
+Pure Milk
+Milk diluted with water
+Milk contaminated with salt
+Milk contaminated with detergent
+
+Example dataset entry:
+
+{
+ density: 1.030,
+ tds: 300,
+ ph: 6.7,
+ turbidity: 820,
+ temperature: 25,
+ label: "Pure Milk"
+}
+
+Generate multiple synthetic variations for realistic testing.
+
+4. SCORING MODEL
+
+Calculate a Milk Quality Score between 0 and 100.
+
+Use expected normal ranges:
+
+Density: 1.026 – 1.032
+TDS: 250 – 350
+pH: 6.6 – 6.8
+Turbidity: 700 – 900
+
+Score should decrease when values deviate from expected ranges.
+
+5. DILUTION ESTIMATION
+
+Estimate water dilution using density.
+
+Formula:
+
+dilution % =
+(pure_density - measured_density) /
+(pure_density - water_density) * 100
+
+Assume:
+
+pure_density = 1.030
+water_density = 1.000
+
+6. DATASET MATCHING
+
+Compare the user input sample with the dataset.
+
+Find the closest dataset entry and classify the sample as:
+
+Pure Milk
+Diluted Milk
+Possible Chemical Contamination
+
+7. RESULT SCREEN
+
+Display results including:
+
+Milk Quality Score
+Possible Issue
+Estimated Dilution Percentage
+Confidence Level
+
+Example output:
+
+Milk Quality Score: 84
+
+Possible Issue: Dilution detected
+
+Estimated dilution: ~15%
+
+Confidence: Medium
+
+8. DATA VISUALIZATION
+
+Add a chart comparing the current sample vs ideal milk values.
+
+Display bars for:
+
+Density
+TDS
+pH
+Turbidity
+Temperature
+
+9. DEBUG MODE
+
+Include two modes:
+
+Manual Input Mode
+Sensor Mode (future)
+
+Manual mode uses user input.
+Sensor mode will later connect to ESP32 API.
+
+10. FUTURE SENSOR INTEGRATION
+
+Prepare the architecture for future ESP32 integration.
+
+Example API:
+
+POST /sensor-data
+
+{
+ density: 1.027,
+ tds: 310,
+ temperature: 24
+}
+
+The app should be ready to receive this data and analyze it.
+
+11. APP STRUCTURE
+
+screens/
+input_screen.dart
+result_screen.dart
+
+services/
+dataset_engine.dart
+milk_analysis.dart
+
+models/
+milk_sample.dart
+
+12. UI STYLE
+
+Modern IoT dashboard style.
+
+Main screen sections:
+
+Milk Sample Input
+Sensor Configuration
+Analyze Button
+Result Dashboard
